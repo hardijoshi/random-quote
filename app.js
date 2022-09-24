@@ -1,0 +1,8 @@
+var quotes = [
+    'Be yourself; everyone else is already taken.  ― Oscar Wilde','Be the change that you wish to see in the world.  ― Mahatma Gandhi','Without music, life would be a mistake.  ― Friedrich Nietzsche','It is never too late to be what you might have been.  ― George Eliot','Everything you can imagine is real.  ― Pablo Picasso','Life isnt about finding yourself. Life is about creating yourself.  ― George Bernard Shaw',"Nothing is impossible. The word itself says I'm possible!  — Audrey Hepburn","The bad news is time flies. The good news is you're the pilot.  — Michael Altshuler",'Keep your face always toward the sunshine, and shadows will fall behind you.  — Walt Whitman', 'Success is not final, failure is not fatal: it is the courage to continue that counts.  —Winston Churchill', 'Spread love everywhere you go. — Mother Teresa', 'Belief creates the actual fact.  — William James' , 'It is during our darkest moments that we must focus to see the light.  — Aristotle', "Believe you can and you're halfway there.  — Theodore Roosevelt" ,  'In a gentle way, you can shake the world.  — Mahatma Gandhi' , "Try to be a rainbow in someone's cloud.  — Maya Angelou", 'Wake up determined, go to bed satisfied.  — Dwayne "The Rock" Johnson ',"Stay hungary, Stay foolish. —Steve Jobs","May the fireflies guide you home on days when your stars don't show up.  —Unkmown", "Every action you take is a vote for the type of person you wish to become.  —James Clear 'From Atomic Habits"
+]
+function newQuote() {
+    var randomNumber = Math.floor(Math.random() * 20);
+    document.getElementById('quotes').innerHTML = quotes[randomNumber];
+}
+document.getElementById('quotes').innerHTML = quotes[randomNumber];

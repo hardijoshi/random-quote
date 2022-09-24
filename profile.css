@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1,h2,h3{
+    color: pink;
+}
+.center-text{
+    text-align: center;
+}
+#logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+span{
+    color: palevioletred;
+}
+copyright{
+    padding-top: 12px;
+    font-size: 0.75em;
+}
